@@ -13,10 +13,6 @@ function draw() //this runs in a loop to update the display
     point(150,250);
      line(0,0,400,400); 
      
-     if(mouseIsPressed)
-     {
-        ellipse(mouseX, mouseY, 100,100);
-     }
      /*
     rect(0,0,100,100);
     rect(100,100,100,100);
