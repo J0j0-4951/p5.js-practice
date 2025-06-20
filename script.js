@@ -8,7 +8,7 @@ background(220);
 function draw() //this runs in a loop to update the display
 {
     point(150,250);
-     line(0,400,0,400);
+     line(0,400,400,0);
 
     rect(0,0,100,100);
     rect(100,100,100,100);
