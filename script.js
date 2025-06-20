@@ -20,7 +20,11 @@ function drawAxes()
 {
 stroke(0);
 strokeWeight(2);
-line(-width /2, 0, width/2,0);
-line(0,-height/2,0,height/2);
+line(-400, 0, 400);
+line(0, -height / 2, 0, height / 2);
 
+fill(0);
+noStroke();
+textSize(12);
+textAlign(CENTER, CENTER);
 }
