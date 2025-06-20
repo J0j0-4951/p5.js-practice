@@ -28,3 +28,12 @@ noStroke();
 textSize(12);
 textAlign(CENTER, CENTER);
 }
+
+for( let x= -400; x<= 400; x+= 10) {
+stroke(0);
+strokeWeight(1); //vertical lines
+line(x,-5,x,5); //horizontal lines
+
+
+
+}
