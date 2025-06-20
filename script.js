@@ -2,8 +2,8 @@ function setup() //called once when the program starts
 {
 createCanvas(400,400);
 background(220);
-    translate
-
+    translate(width/2, height/2); //move origin to cneter of canvas
+        drawAxesWithTicks(); //draws the axes
 }
 
 function draw() //this runs in a loop to update the display
